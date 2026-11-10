@@ -10,7 +10,7 @@ html:has(.menu:popover-open) { /* ajout d'overflow pour empêcher l'utilisateur 
   overflow: hidden;
 }
 
-.burger { /*l'apparence du curseur change, afin de montrer que l'utilisateur peut cliquer sur le menu*/
+.burger { /* ajout de la propriété cursor pour changer l'apparence du curseur, afin de montrer que l'utilisateur peut cliquer sur le menu*/
   cursor: pointer;
 }
 
