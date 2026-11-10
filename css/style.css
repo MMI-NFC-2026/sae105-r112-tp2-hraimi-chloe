@@ -6,7 +6,7 @@
   border: 0;
 }
 
-html:has(.menu:popover-open) { /* La page reste figée tant que le menu est ouvert*/
+html:has(.menu:popover-open) { /* ajout d'overflow pour empêcher l'utilisateur de scroller vers la page arrière lorsque le menu est ouvert*/
   overflow: hidden;
 }
 
