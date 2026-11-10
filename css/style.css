@@ -14,16 +14,16 @@ html:has(.menu:popover-open) { /* ajout d'overflow pour empêcher l'utilisateur 
   cursor: pointer;
 }
 
-.menu {
-  /* … on complète le bloc existant … */
+.menu { /* ajout de transition et des paramètres correspondant (opacity) pour changer la vitesse de transition*/
   transition: 400ms allow-discrete;
   opacity: 0;
 }
 
-.menu:popover-open {
+.menu:popover-open { /* propriété correspondant au menu visible */
   opacity: 1;
 }
 
+/* déclaration @starting-style permet d'avoir une animation avec opacité*/
 @starting-style {
   .menu:popover-open {
     opacity: 0;
