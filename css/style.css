@@ -10,7 +10,7 @@ html:has(.menu:popover-open) { /* La page reste figée tant que le menu est ouve
   overflow: hidden;
 }
 
-.burger {
+.burger { /*l'apparence du curseur change, afin de montrer que l'utilisateur peut cliquer sur le menu*/
   cursor: pointer;
 }
 
