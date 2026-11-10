@@ -38,7 +38,7 @@ html:has(.menu:popover-open) { /* ajout d'overflow pour empêcher l'utilisateur 
 }
 
 .menu:popover-open .burger--close {
-  transform: rotate(90deg); /*l'hamburger est vertical, cette commande change la position de l'objet en fonction du degrès souhaité*/ 
+  transform: rotate(90deg); /*cette commande change la position de l'hamburger en fonction du degrès souhaité*/ 
   transition: 400ms;
 }
 
