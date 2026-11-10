@@ -42,7 +42,7 @@ html:has(.menu:popover-open) { /* ajout d'overflow pour empêcher l'utilisateur 
   transition: 400ms;
 }
 
-@media (prefers-reduced-motion: reduce) { /*l'animation du menu a été retiré*/ 
+@media (prefers-reduced-motion: reduce) { /*désactive les transitions en fonction des préférences de l'utilisateur*/ 
   .menu,
   .menu .burger--close {
     transition: none;
